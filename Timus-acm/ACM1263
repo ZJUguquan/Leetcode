@@ -1,0 +1,15 @@
+# ACM 1263 elections
+# 
+# len, r = gets.chomp.split(" ").collect {|x| x.to_i}
+n, m=gets.chomp.split(" ").collect {|x| x.to_i}
+vv = []
+p n
+p m 
+i = 1
+while i <= n
+	vote = gets.chomp.to_i
+	vv[vote] += 1
+	i += 1
+end
+
+p vote 
