@@ -88,6 +88,23 @@ class Solution:
 # 			print("\n")
 
 
+'''
+'''
+for every line L consists of only two points (p1,p2):
+    if p1.x!=p2.x:
+        line must cross y axis
+        y(0)=y1-(y2-y1)/(x2-x1)*x1
+        key(L)=(y(0),(p2.y-p1.y)/(p2.x-p1.x))
+    elif p1.x==p2.x:
+        line must cross x axis
+        x(0)=x1-(x2-x1)/(y2-y1)*y1
+        key(L)=(x(0),Infinity)
+'''
+
+#Definition for a point
+
+'''
+
 
 p1 = Point()
 p2 = Point()
