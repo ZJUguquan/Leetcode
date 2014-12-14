@@ -32,3 +32,11 @@ print(bind([1,2,3], lambda a:  [a ] ))
 print(bind([1,2,3], lambda a:  [ [a] ] ))
 print(bind([1,2,3], lambda a:  [ [a, -a] ] ))
 print(bind([1,2,3], lambda a:  [ str(a) ] ))
+
+
+
+a = {1,3,2}
+
+print(a)
+a.add(3)
+print(a)
