@@ -4,10 +4,11 @@ code log of stevey(raw: staticor)
 from date(2014-10-28), begin to code_plan
 makeprogramming_code at leat 1000 lines everyday.
 """
-__author__  = "Stevey"
+__author__ = "Stevey"
 __project__ = "LeetCode"
 
-__tags__ = "math"; url = "https://oj.leetcode.com/tag/math/"
+__tags__ = "math"
+url = "https://oj.leetcode.com/tag/math/"
 
 "Roman to Integer"
 """qustion:
@@ -16,8 +17,10 @@ Input is guaranteed to be within the range from 1 to 3999
 """
 '------'
 "Accepted others"
+
+
 def romanToInt(s):
-    m = {'M':1000, 'D':500, 'C':100, 'L':50, 'X':10, 'V':5,'I':1}
+    m = {'M': 1000, 'D': 500, 'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1}
     s = s.upper()
     stack = [0]
     # reversed
@@ -26,60 +29,61 @@ def romanToInt(s):
             stack.append(m[c])
         else:
             v = stack.pop()
-            stack.append(v-m[c])
+            stack.append(v - m[c])
     return sum(stack)
 
-s = "MMMCMXCIX" # X I C
+s = "MMMCMXCIX"  # X I C
 s = "MMCCCLI"
 print romanToInt(s)
 
 "Integer to Roman"
 "Input is guaranteed to be within the range from 1 to 3999."
-m = {'M':1000, 'D':500, 'C':100, 'L':50, 'X':10, 'V':5,'I':1}
+m = {'M': 1000, 'D': 500, 'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1}
 m = dict((v, k) for k, v in m.iteritems())
 "## 小技巧 实现 字典中 k-v 对值的互换  反转  v k k v in iteritems()"
 
 # for k in m:
 #     print k , m[k]
 #
-m = { 3900:"MMMCM",\
-            3000: "MMM", \
-            1000:"M", \
-            900:"CM", \
-            500:"D", \
-            400:"CD", \
-            100:"C", \
-            90:"XC", \
-            50:"L", \
-            40:"XL", \
-            10: "IX", \
-            9:"IX", \
-            5: "V",\
-            4: "IX",\
-            1: "I"}
-#dict 按keys排序 输出
+m = {3900: "MMMCM",
+     3000: "MMM",
+     1000: "M",
+     900: "CM",
+     500: "D",
+     400: "CD",
+     100: "C",
+     90: "XC",
+     50: "L",
+     40: "XL",
+     10: "IX",
+     9: "IX",
+     5: "V",
+     4: "IX",
+     1: "I"}
+# dict 按keys排序 输出
 # for i in sorted(m.keys(), reverse=True):
 #     print i
-# # 迭代方法 最终屡次出现 TLE  Time Limit Exceeding 不得不放弃
+# 迭代方法 最终屡次出现 TLE  Time Limit Exceeding 不得不放弃
+
+
 def intToRoman(num):
-    m = {   1000:"M", \
-            900:"CM", \
-            500:"D", \
-            400:"CD", \
-            100:"C", \
-            90:"XC", \
-            50:"L", \
-            40:"XL", \
-            10: "X", \
-            9:"IX", \
-            5: "V",\
-            4: "IX",\
-            1: "I"}
+    m = {1000: "M",
+         900: "CM",
+         500: "D",
+         400: "CD",
+         100: "C",
+         90: "XC",
+         50: "L",
+         40: "XL",
+         10: "X",
+         9: "IX",
+         5: "V",
+         4: "IX",
+         1: "I"}
     for i in sorted(m.keys(), reverse=True):
         if num >= i:
-            return m[i] + intToRoman( num - i)
+            return m[i] + intToRoman(num - i)
     return ""
-
 
 
 # print "Int to Roman Test"
@@ -87,28 +91,30 @@ def intToRoman(num):
 
 "参考2"
 "statis Accepted"
+
+
 def intToRoman(num):
     roman = "IVXLCDM"
     result = ""
     divide = 1000
     for i in [6, 4, 2, 0]:
         temp = num / divide
-        if (temp == 0) : # hundreds of , num < 1000
+        if (temp == 0):  # hundreds of , num < 1000
             divide /= 10
             continue
-        if (temp <= 3) :
+        if (temp <= 3):
             result += roman[i] * temp
         elif (temp == 4):
             result += roman[i]
-            result += roman[i+1]
+            result += roman[i + 1]
         elif (temp == 5):
-            result += roman[i+1]
+            result += roman[i + 1]
         elif (temp <= 8):
-            result += roman[i+1]
-            result += roman[i] * (temp -5 )
-        else: # (temp == 9):
+            result += roman[i + 1]
+            result += roman[i] * (temp - 5)
+        else:  # (temp == 9):
             result += roman[i]
-            result += roman[i+2]
+            result += roman[i + 2]
         num %= divide
         divide /= 10
     return result
@@ -162,12 +168,14 @@ public String intToRoman(int num) {
 '需要注意一开始没有想到 如 11 22 33 这种长度为2的情况. 出现了 int('') 的错误'
 '错误内容为 ValueError: invalid literal for int() with base 10:'
 
+
 def isPalindrome(x):
-    if x < 0 :
+    if x < 0:
         return False
-    if x < 10 :
+    if x < 10:
         return True
     s = str(x)
+
     def head_and_tail(s):
         if len(s) == 2:
             if s[0] == s[-1]:
@@ -176,8 +184,8 @@ def isPalindrome(x):
                 return False
         if len(s) <= 1:
             return True
-        for i in range(0,len(s)/2):
-            if s[0] != s[len(s)-1 - i]:
+        for i in range(0, len(s) / 2):
+            if s[0] != s[len(s) - 1 - i]:
                 return False
             else:
                 return head_and_tail(s[1:-1])
@@ -186,22 +194,23 @@ def isPalindrome(x):
 
 s = "100021"
 print isPalindrome(int(s))
-#print int('')
+# print int('')
 
 "Permutation Sequence"
 "[1,2,3,4....,n] for any given k "
 "output A_n_k(aka,  choose(n,k)*k! kinds of permutation sequence)"
 
-def getPermutation(n, k):
-    i , j , f = 1, 1, 1
-    s = []
-    for i in (1, n +1  ):
-        f *= i
-        s.append(str(i) )
-    s = ''.join(s)
-    #for i in range(n):
 
-    #12345 n = 5 first unit can bear 4! 24
+def getPermutation(n, k):
+    i, j, f = 1, 1, 1
+    s = []
+    for i in (1, n + 1):
+        f *= i
+        s.append(str(i))
+    s = ''.join(s)
+    # for i in range(n):
+
+    # 12345 n = 5 first unit can bear 4! 24
 
 # "test code"
 # t = [1, 2 , 3, 4, 5]
