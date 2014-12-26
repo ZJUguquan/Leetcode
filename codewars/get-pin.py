@@ -11,9 +11,19 @@ def get_pins(observed):
         return res
     else:
         res = dictx[observed[0]]
-        return [''.join(element) for element in  set(product(res, get_pins(observed[1:])))]
+        return [''.join(element) for element in set(product(res, get_pins(observed[1:])))]
 
 
 print(get_pins('8'))
 print(get_pins('11'))
 print(get_pins('369'))
+
+
+from itertools import product
+
+ADJACENTS = ('08', '124', '2135', '326', '4157',
+             '52468', '6359', '748', '85790', '968')
+
+
+def get_pins(observed):
+    return [''.join(p) for p in product(*(ADJACENTS[int(d)] for d in observed))]
