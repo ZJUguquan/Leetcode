@@ -7,8 +7,7 @@
 
 
 def prime_factors(n):
-    from math import sqrt
-    f, res =3, []
+    f, res = 3, []
     # if is_prime(n):
     #     return [n]
     while n % 2 == 0:
@@ -24,4 +23,4 @@ def prime_factors(n):
         res.append(n)
     return res
 
-print(prime_factors(101))
+print(prime_factors(14))
