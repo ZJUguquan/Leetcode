@@ -1,42 +1,40 @@
+def counted(fn):
+    def wrapper(*args, **kwargs):
+        wrapper.called += 1
+        return fn(*args, **kwargs)
+    wrapper.called = 0
+    wrapper.__name__ = fn.__name__
+    return wrapper
+
+
 def add(a, b):
-  return a + b
+    return a + b
 
 
 def add_ten(a):
-  return add(a, 10)
+    return add(a, 10)
 
 
 def misc_fun():
-  return add(add_ten(3), add_ten(9))
+    return add(add_ten(3), add_ten(9))
+
+
+import sys
+
 
 def count_calls(func, *args, **kwargs):
-  """Count calls in function func"""
+    calls = [-1]
 
-  rv = func(*args, **kwargs)
+    def tracer(frame, event, arg):
+        if event == 'call':
+            calls[0] += 1
+        return tracer
+    sys.settrace(tracer)
+    rv = func(*args, **kwargs)
+    return calls[0], rv
 
-  return calls, rv
+print(count_calls(add, 8, 12))
+print(count_calls(misc_fun))
+# print(dir(misc_fun))
 
-
-
-def alphabet_position(text):
-    import string
-    return ' '.join([ str(ord(i.lower()) - ord('a') + 1) for i in text if i in string.ascii_letters])
-
-print(alphabet_position('yangjinyong jin yong '))
-
-def bind(lst,func):
-    # Implement meee!
-    return [ func(i)[0] for i in lst]
-
-print(bind([1,2,3], lambda a:  [a ] ))
-print(bind([1,2,3], lambda a:  [ [a] ] ))
-print(bind([1,2,3], lambda a:  [ [a, -a] ] ))
-print(bind([1,2,3], lambda a:  [ str(a) ] ))
-
-
-
-a = {1,3,2}
-
-print(a)
-a.add(3)
-print(a)
+# print(misc_fun.__call__)
