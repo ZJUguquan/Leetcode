@@ -1,4 +1,9 @@
 # Description:
+'time out'
+
+'solution'
+
+
 
 # A Hamming number is a positive integer of the form 2i3j5k, for some
 # non-negative integers i, j, and k.
@@ -18,35 +23,39 @@
 # numbers without timing out.
 
 
-def prime_factors(n):
-    f, res = 3, []
-    # if is_prime(n):
-    #     return [n]
-    while n % 2 == 0:
-        res.append(2)
-        n //= 2
-
-    while f * f <= n:
-        while n % f == 0:
-            res.append(f)
-            n //= f
-        f += 2
-    if n > 1:
-        res.append(n)
-    return res
-
-
-def invalid(n):
-    if any([i not in (2, 3, 5) for i in prime_factors(n)]):
+def is_prime(n):
+    if n == 2 or n == 3:
+        return True
+    if n % 2 == 0:
         return False
-    return True
+    for i in range(3, n//2 + 1, 2):
+        if n % i == 0:
+            return False
+        return True
 
-# print(invalid(24))
+# print([i for i in range(6, 100) if is_prime(i)])
+# import pdb; pdb.set_trace()  # breakpoint 5bd6f467 //
+
 
 
 def hamming(n):
-    h = list(range(1, 1000000))
-    h = [i for i in h if invalid(i)]
-    print(h[n-1])
-    print(len(h))
-hamming(100)
+    factors = [2, 3, 5]
+    elements = [1 for i in range(n)]
+    nextIndex = [0 for i in range(len(factors)) ]
+    nextFrom = factors[::]#[0 for i in range(len(generator)) ]
+    for i in range(1, n):
+        nextNumber = 2**64
+        for j in nextFrom:
+            if j < nextNumber:
+                nextNumber = j
+        elements[i] = nextNumber
+        for j in range(len(factors)):
+            if nextFrom[j] == nextNumber:
+                nextIndex[j] += 1
+                nextFrom[j] = elements[nextIndex[j]] * factors[j]
+        # print(elements)
+    return elements[-1]
+    #print(nextNumber)
+
+print(hamming(10))
+
