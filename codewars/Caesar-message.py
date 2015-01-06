@@ -14,12 +14,14 @@ print(encryptor(1, 'Caesar Cipher'))
 
 
 import string
-
 def encryptor(key, message):
-    transtab = string.maketrans(
+    transtab = str.maketrans(
         string.ascii_letters,
         (string.ascii_lowercase * 2)[key%26:key%26+26] + (string.ascii_uppercase * 2)[key%26:key%26+26])
     return message.translate(transtab)
 
 
-print(-1%26)
+print (encryptor(13, 'test'))
+print (encryptor(13, 'Test123123123'))
+
+print(string.ascii_letters)
