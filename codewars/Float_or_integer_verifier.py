@@ -1,8 +1,14 @@
 def i_or_f(arr):
-    # delete sign + or -
-    if arr[0] in ['-', '+']:
-        arr = arr[1:]
-    # scienfic
-    if 'e' in arr or 'E' in arr:
+    try:
+        if type(float(arr)) == float :
+            return True
+    except:
+        return False
 
 
+
+print('1E1'.lower().count('e'))
+print(i_or_f('1e+1'))
+print(i_or_f(0))
+
+print(i_or_f('1ee1'))
