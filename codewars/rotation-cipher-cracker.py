@@ -2,7 +2,7 @@ import string
 
 
 def caesar(message, key):
-    transtab = str.maketrans(
+    transtab = string.maketrans(
         string.ascii_letters,
         (string.ascii_lowercase * 2)[key % 26:key % 26 + 26] + (string.ascii_uppercase * 2)[key % 26:key % 26 + 26])
     return message.translate(transtab)
@@ -15,9 +15,9 @@ def caesar(message, key):
 def decode(msg, contents):
     result = []
     for i in range(26):
-        re = caesar(s, i)
+        re = caesar(msg, i)
         if contents in re:
             result.append(re)
     return result
 
-print(decode(s, c))
+#print(decode(s, c))
