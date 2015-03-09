@@ -21,6 +21,7 @@ def prime_factors(n):
         f += 2
     if n > 1:
         res.append(n)
+    res.sort()
     return res
 
-print(prime_factors(14))
+print(prime_factors(240))
