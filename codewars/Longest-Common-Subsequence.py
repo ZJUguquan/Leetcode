@@ -22,3 +22,14 @@ def lcs(x, y):
 print(lcs('abcdef', 'abc'))
 print(lcs('abcdef', 'acf'))
 print(lcs('132535365', '123456789'))
+
+
+
+
+import itertools
+def lcs(x, y):
+  for length in reversed(range(len(x)+1)):
+      for xItem in list(itertools.combinations(x, length)):
+          for yItem in list(itertools.combinations(y,length)):
+              if xItem == yItem:
+                  return "".join(xItem)
