@@ -24,7 +24,7 @@ def prime_factors(n):
     res.sort()
     return res
 
-print(prime_factors(144))
+print(prime_factors(2))
 
 from collections import Counter
 c = Counter(prime_factors(216))
