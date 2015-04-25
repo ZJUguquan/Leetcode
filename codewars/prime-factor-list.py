@@ -7,6 +7,8 @@
 
 
 def prime_factors(n):
+    if n <= 0 :
+        n = -n
     f, res = 3, []
     # if is_prime(n):
     #     return [n]
@@ -24,15 +26,15 @@ def prime_factors(n):
     res.sort()
     return res
 
-print(prime_factors(2))
+print(prime_factors(-61548))
 
-from collections import Counter
-c = Counter(prime_factors(216))
-print(c)
-print(c.values())
+# from collections import Counter
+# c = Counter(prime_factors(216))
+# print(c)
+# print(c.values())
 
-print(max(c.values()), min(c.values()))
-from functools import reduce
-print(reduce(lambda x,y : x * y, [1,2,3,4]))
-from math import sqrt, floor
-print(sqrt(44944) == floor(sqrt(44944)))
+# print(max(c.values()), min(c.values()))
+# from functools import reduce
+# print(reduce(lambda x,y : x * y, [1,2,3,4]))
+# from math import sqrt, floor
+# print(sqrt(44944) == floor(sqrt(44944)))
