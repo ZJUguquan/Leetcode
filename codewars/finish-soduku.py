@@ -1,4 +1,5 @@
 'simpler!!'
+
 def done_or_not(board):
   rows = board
   cols = [map(lambda x: x[i], board) for i in range(9)]
