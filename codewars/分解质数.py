@@ -7,3 +7,6 @@ def prime_squares(p):
         if p >= i*i:
             if floor(sqrt(p-i*i)) == ceil(sqrt(p-i*i)):
                 return (i, int(sqrt(p-i*i)))
+
+
+print(prime_squares(98))
