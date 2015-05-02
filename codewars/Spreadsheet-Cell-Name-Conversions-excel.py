@@ -1,15 +1,13 @@
 class SpreadSheetHelper(object):
 
     def convert_to_display(self, internal):
-        """
-        Converts an internal coordinate into a display coordinate
-        internal is in the form (row, column)
-        returns a string in the form "CR" where C is the column display name, and R is the row display name
-        """
+        mapping = dict(zip(range(26), [chr(i) for i in range(65, 65+27)]))
+
         c = internal[0]
         column = ''
         while c > 26:
             c, yu = divmod(c, 26)
+            column += mapping[yu]
 
         r = internal[1] + 1
         return "A1"
