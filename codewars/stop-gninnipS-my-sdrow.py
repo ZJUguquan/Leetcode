@@ -2,7 +2,6 @@
 
 import re
 
-
 def spin_words(sentence):
 
     fields = re.split('(\s)', sentence)
@@ -18,5 +17,10 @@ def spin_words(sentence):
     return ''.join(res)
 
 
+
+import re
+
+def spin_words(sentence):
+    return re.sub('(\b\w{5,}\b)', lambda m: m.group(1)[::-1], sentence)
 sentence = 'Hey  fellow  warriors'
 print spin_words(sentence)
