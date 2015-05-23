@@ -2,7 +2,6 @@ class SpreadSheetHelper(object):
 
     def convert_to_display(self, internal):
         mapping = dict(zip(range(26), [chr(i) for i in range(65, 65+27)]))
-
         c = internal[0]
         column = ''
         while c > 26:
