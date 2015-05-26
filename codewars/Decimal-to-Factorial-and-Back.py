@@ -1,34 +1,32 @@
-
 # coding: utf-8
+from math import factorial
+# 2  http://www.codewars.com/kata/decimal-to-factorial-and-back
 
-def find_duplicates(employees):
-    newe = []
-    output = []
-    for idx, ew in enumerate(employees):
-        #print ew
+def maxiFact(nb):
+    if nb == 1: return 1
+    i = 1
+    while nb > factorial(i):
+        i += 1
+    return i - 1 if factorial(i) > nb else i
 
-        e = ew.last_name + ew.user_name# + ew.first_name
-        #print e
-        if e not in newe:
-            newe.append(e)
-        else:
-            output.append(ew)
-            employees.pop(idx)
-    return output
-
-def o(msg=None):
-    print( ('*'*30+str(msg)+'*'*30).center(80))
-
-from math imoprt factorial
-
+from string import ascii_uppercase, digits
+posix = digits + ascii_uppercase
 
 def dec2FactString(nb):
-    res = ''
-    maxi = 9
-    while nb > 0:
-        if nb // factorial(maxi) > 0:
-            qu, nb = divmod(nb, r)
 
-            maxi -= 1
-        else:
-            maxi -= 1
+    out = ['0'] + ['0'] * 35
+    maxi = maxiFact(nb)
+    # print maxiFact(nb)
+    while nb > 0:
+        qutient, nb = divmod(nb, factorial(maxi))
+        out[maxi] = str(posix[qutient])
+        maxi = maxiFact(nb)
+    # print out
+    return ''.join(out).rstrip('0')[::-1]
+
+# print dec2FactString(463)
+
+
+def factString2Dec(string):
+    return sum([posix.index(s) * factorial(idx) for idx, s in enumerate(string[::-1])])
+

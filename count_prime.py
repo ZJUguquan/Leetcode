@@ -1,28 +1,41 @@
 
 
+# def count_prime(n):
+#     _ =  filter( lambda x:
+#                 len(filter(lambda y: x%y == 0,range(2,x-1))
+#                          ) == 0 , range(2,n) )
+#     return _
 
-def count_prime(n):
-    _ =  filter( lambda x:
-                len(filter(lambda y: x%y == 0,range(2,x-1))
-                         ) == 0 , range(2,n) )
-    return _
+# print count_prime(100)
 
-print count_prime(100)
+from time import time
 
-
-# 筛法
 
 def shaifa(n):
     output = []
     numbers = range(2, n)
-    start = numbers.pop(0)
-    output.append(start)
-    while options[-1] ** 2 > start:
-        for i in range(start**2, n, start):
-            numbers.remove(i)
-        start = output.pop(0)
+    if numbers is not None:
+        start = numbers.pop(0)
         output.append(start)
-
+        while numbers[-1] >= start**2:
+            # print numbers, '@@@@@@', output
+            for i in range(start**2, n, start):
+                if i in numbers:
+                    numbers.remove(i)
+            start = numbers.pop(0)
+            output.append(start)
+            if not numbers or numbers[-1] >= start**2:
+                continue
+            else:
+                break
+        output += numbers
     return output
 
-print shaifa(25)
+N = 10000
+
+nn = time()
+print shaifa(N)
+print 'time: ', time() - nn
+nn = time()
+print filter(lambda x: len(filter(lambda y: x % y == 0, range(2, x - 1))) == 0, range(2, N + 1))
+print 'time: ', time() - nn
