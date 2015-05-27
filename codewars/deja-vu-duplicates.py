@@ -1,3 +1,21 @@
+# coding: utf-8
+
+
+
+'''description of problem
+
+It might be déjà vu, or it might be a duplicate day. You’re well trained in the arts of cleaning up duplicates. Someone has hacked your database and
+
+injected all kinds of duplicate records into your tables.
+
+You don’t have access to modify the data in the tables or restore the tables to a previous time because the DBA’s are gone.
+
+You are provided with an array of employees from the server. Your task is to write the findDuplicates function to remove the duplicate records after they are sent down to the client.
+
+Employee Class:
+
+'''
+
 from collections import Counter
 def find_duplicates(employees):
     newe = []
@@ -16,37 +34,12 @@ def find_duplicates(employees):
     return output
 
 
-<__main__.Employee instance at 0x7f794760f8c0>
-Counter({'JoJo': 1, 'Joestar': 1, 'Johnatan': 1})
-<__main__.Employee instance at 0x7f794759c248>
-Counter({'Dio': 1, 'DIO': 1, 'Brando': 1})
-<__main__.Employee instance at 0x7f794759c290>
-Counter({'JoJo': 1, 'Joestar': 1, 'Joseph': 1})
-<__main__.Employee instance at 0x7f794759c2d8>
-Counter({'': 1, 'Kars': 1, 'the ultimate being': 1})
-<__main__.Employee instance at 0x7f794759c320>
-Counter({'JoJo': 1, 'Joestar': 1, 'Johnatan': 1})
-********************************************************************************
-[<__main__.Employee instance at 0x7f794760f8c0>, <__main__.Employee instance at 0x7f794759c248>, <__main__.Employee instance at 0x7f794759c290>, <__main__.Employee instance at 0x7f794759c2d8>]
-Test Passed
-Test Passed
-<__main__.Employee instance at 0x7f794760f8c0>
-Counter({'JoJo': 1, 'Joestar': 1, 'Johnatan': 1})
-<__main__.Employee instance at 0x7f794759c248>
-Counter({'Dio': 1, 'DIO': 1, 'Brando': 1})
-<__main__.Employee instance at 0x7f794759c290>
-Counter({'JoJo': 1, 'Joestar': 1, 'Joseph': 1})
-<__main__.Employee instance at 0x7f794759c2d8>
-Counter({'': 1, 'Kars': 1, 'the ultimate being': 1})
-<__main__.Employee instance at 0x7f794759c488>
-Counter({'JoJo': 1, 'Joestar': 1, 'Johnatan': 1})
-********************************************************************************
-[<__main__.Employee instance at 0x7f794760f8c0>,
- <__main__.Employee instance at 0x7f794759c248>,
- <__main__.Employee instance at 0x7f794759c290>,
- <__main__.Employee instance at 0x7f794759c2d8>,
- <__main__.Employee instance at 0x7f794759c4d0>]
+class Employee:
+  def __init__(self,f_name,l_name,u_name):
+    self.first_name = f_name
+    self.last_name = l_name
+    self.user_name = u_name
 
-It should return the sole triple duplicate in this test:
-
-[<__main__.Employee instance at 0x7f794759c488>] should equal [<__main__.Employee instance at 0x7f794759c488>, <__main__.Employee instance at 0x7f794759c4d0>]
+e = Employee('a','bb','ccc')
+print dir(e)
+print
