@@ -11,3 +11,28 @@ def left_riemann(f, n, a, b):
     for ss in xxrange(a, b, step):
         sum += f(ss) * step
     return  round(sum, 3)
+
+# Part I
+def left_riemann(f, n, a, b):
+  h = float(b-a)/n
+  print(h)
+  sum = 0
+  x = a
+  for i in range(n):
+    sum += f(x) * h
+    x += h
+  return round(sum * 100)/100
+
+
+# riemann sums II (trapezoidal rule)
+
+def riemann_trapezoidal(f, n, a, b):
+  h = float(b-a)/n
+  sum = 0
+  x = a
+  for i in range(n):
+    sum += float(f(x) + f(x+h))/2 * h
+    x += h
+  return round(sum * 100)/100
+
+
