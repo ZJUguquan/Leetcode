@@ -1,5 +1,94 @@
 # coding: utf-8
 
+# others
+
+
+def find_duplicates(e):
+    res=[]
+    toberemoved=[]
+    for i in range(len(e)):
+        if i in toberemoved:
+            continue
+
+    for j in range(i+1,len(e)):
+        if (e[j].first_name==e[i].first_name and e[j].last_name==e[i].last_name and e[j].user_name==e[i].user_name):
+            res += [e[j]]
+            toberemoved += [j]
+
+    for i in sorted(toberemoved,reverse=True):
+        e.pop(i)
+    return res
+
+
+--------------------------------------------------------------------------------
+
+def find_duplicates(employees):
+    build_key = lambda e: (e.first_name, e.last_name, e.user_name)
+
+    # Add an attribute for uniqueness comparison
+    for e in employees:
+        e.dupe_key = build_key(e)
+
+    # Identify duplicates and remove them
+    result = []
+    first = 0
+
+    while first < len(employees):
+        e = employees[first]
+        positions = [i for i, emp in enumerate(employees) if e.dupe_key == emp.dupe_key]
+        if len(positions) > 1:
+            duplicate_positions = positions[1:]
+            result.extend([employees[i] for i in duplicate_positions])
+            for i in reversed(duplicate_positions):
+                del employees[i]
+        first += 1
+
+    # Clean up the extra attribute
+    for e in employees + result:
+        del e.dupe_key
+
+    # Return the dupliactes
+    return result
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 '''description of problem
