@@ -22,16 +22,22 @@ cover_set = [   ['0', '2', 'l'],
     ['r', 'C', '4'],
     ['w', '1', 'Z']]
 
-from pprint import pprint
-pprint(sorted(cover_set), indent=4)
+def generate_triplets(secret):
+    lens = len(secret)
+    secret = list(secret)
+    output = []
 
-print len(cover_set)
+    while len(secret) >=3:
+        temp = []
+        for _ in range(3):
+            temp.append(secret.pop(0))
+        output.append(temp)
 
-# description of this kata:
-
-This is an ataK, a reverse Kata. First, solve "Recover a secret string from random triplets". Then write a test generator for that Kata: given a random string whit no characters repetitions, find out the minimun set of triplets which is sufficient to recover the original string using a solution from the previous Kata.
-
-
+    if len(secret) == 1:
+        output.append([temp[-2], temp[-1], secret.pop(0)] )
+    elif len(secret) == 2:
+        output.append([temp[-1], secret.pop(0), secret.pop(0)] )
+    return output
 
 
 
