@@ -28,7 +28,7 @@ class Test(object):
         else:
             print 'something happend, be careful!'
 
-
+print ord('F')
 test = Test()
 
 point = [-6560, 106]
