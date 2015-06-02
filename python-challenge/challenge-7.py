@@ -19,6 +19,8 @@ if __name__ == '__main__':
     row = [img.getpixel((x, 45)) for x in range(0, w, 7)]
     rs = [r for r, g, b, a in row if r == g == b]
 
-    print rs
+    print ''.join([chr(i) for i in rs])
 
 
+rs = [105, 110, 116, 101, 103, 114, 105, 116, 121]
+print ''.join([chr(i) for i in rs])
