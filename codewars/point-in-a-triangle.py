@@ -1,4 +1,28 @@
-# using Heron's formula
+
+
+
+DELTA = 10 ** -12
+
+def side((x1, y1), (x2, y2), (x, y)):
+    return (y2 - y1) * (x - x1) + (x1 - x2) * (y - y1)
+
+def point_vs_triangle(p, (a, b, c)):
+    sides = tuple(side(p1, p2, p) for (p1, p2) in ((a, b), (b, c), (c, a)))
+    assert abs(sum(sides)) > DELTA
+    signs = tuple(0 if abs(s) < DELTA else 1 if s > 0 else -1 for s in sides)
+    return (0 if sum(signs) else -1) if 0 in signs else (1 if abs(sum(signs)) == 3 else -1)
+
+
+
+
+
+
+
+
+
+
+"***********************************************************"
+
 def side(p1, p2):
     x1, y1 = p1
     x2, y2 = p2
@@ -6,45 +30,42 @@ def side(p1, p2):
 
 
 def heron(p1, p2, p3):
-    try:
-        a = side(p1, p2)
-        b = side(p2, p3)
-        c = side(p1, p3)
-        p = (a + b + c) / 2.0
+    a = side(p1, p2)
+    b = side(p2, p3)
+    c = side(p1, p3)
+    p = (a + b + c) / 2.0
+    if abs(b + c - a) > 10 ** -5:
         return (p * (p - a) * (p - b) * (p - c))**.5
-    except ValueError:
-        raise ValueError('negative number')
+        # return 'outside'
+    else:
+        return -9999  # 'inside'
 
 
 def point_vs_triangle(p, triangle):
     p1, p2, p3 = tuple(triangle)
-
+    h1 = heron(p1, p2, p)
+    h2 = heron(p2, p3, p)
+    h3 = heron(p1, p3, p)
+    H = heron(p1, p2, p3)
+    if p1 == p2 or p2 == p3 or p3 == p1 or H <= 0:
+        raise ValueError('ABC not valid triangle')
     try:
-        h1 = heron(p, p1, p2)
-        h2 = heron(p, p2, p3)
-        h3 = heron(p, p1, p3)
-        H = heron(p1, p2, p3)
-        print h1, h2, h3, H
-
-        if h1 + h2 + h3 > H:
+        print '\t\t', h1, h2, h3
+        if (h1 + h2 + h3 - H) > 10**-5:
             return -1
-        if abs(h1 * h2 * h3) == 10**-8:
+        elif h1 >0 and h2 > 0 and h3> 0 and H > 0:
+            if (h1 + h2 + h3 - H) < 10**-5:
+                return 1
+        elif -9999 in (h1, h2, h3):
             return 0
         return 1
-
-    except Exception, ValueError:
+    except:
         raise ValueError('ABC not valid triangle')
 
-triangle, point = [[0, 0], [5, 5], [5, 0]], [6, 6]
-p1, p2, p3 = tuple(triangle)
-# print side(p1, p2)
-print point_vs_triangle(point, triangle)
-
-# triangle= [[29, 38], [9, 54], [-40, 33]]
-# point= [-25.3, 39.3]
-triangle = [[95, -84], [88, -86], [55, 1]]
-point = [92.9, -84.6]
-print point_vs_triangle(point, triangle)
+Triangle = [[0, 0], [5, 5], [5, 0]]
+points = [[3, 1], [6, 6], [2, 0]]
+for point in points:
+    print point_vs_triangle(point, Triangle)
 
 
 # Example 5: Using memoization as decorator
