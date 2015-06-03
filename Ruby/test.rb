@@ -8,9 +8,11 @@ family = { "Homer" => "dad",
   "Santa's Little Helper" => "dog"
 }
 
-3.repeat { puts "lala"}
+p 3.class #=>
+p 3.to_s
 
 puts "chenlei"
 #
+
 # friends.each { |x| puts "#{x}" }
 # family.each { |x, y| puts "#{x}: #{y}" }
