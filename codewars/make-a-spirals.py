@@ -4,23 +4,28 @@
 
 import turtle
 
+
 def o(msg=None):
-    print( ('*'*30+str(msg)+'*'*30).center(80))
+    print(('*' * 30 + str(msg) + '*' * 30).center(80))
 
 
-def move_right(x,y):
-    return x+1, y
+def move_right(x, y):
+    return x + 1, y
 
-def move_down(x,y):
-    return x,y-1
 
-def move_left(x,y):
-    return x-1,y
+def move_down(x, y):
+    return x, y - 1
 
-def move_up(x,y):
-    return x,y+1
+
+def move_left(x, y):
+    return x - 1, y
+
+
+def move_up(x, y):
+    return x, y + 1
 
 moves = [move_right, move_down, move_left, move_up]
+
 
 def gen_points(end):
     from itertools import cycle
@@ -44,4 +49,4 @@ def gen_points(end):
 print(list(gen_points(25)))
 
 
-
+o()
