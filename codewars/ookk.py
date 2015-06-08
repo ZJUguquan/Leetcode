@@ -29,6 +29,8 @@ def okkOokOo(s):
     return "Oook?"
 
 
+print ord('H') # 72
+print ord('e'), ord('l')
 # Test.assert_equals(okkOokOo('Ok, Ook, Ooo!'), 'H')
 # Test.assert_equals(okkOokOo('Okk, Ook, Ok!'), 'e')
 # Test.assert_equals(okkOokOo('Okk, Okk, Oo!'), 'l')
