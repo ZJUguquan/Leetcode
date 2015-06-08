@@ -1,3 +1,21 @@
+# solution
+
+
+from itertools import count
+
+
+def self_converge(p):
+    width = len(str(p))
+    previous = set()
+    for i in count(1):
+        s = sorted(str(p).ljust(width, '0'))
+        n = int(''.join(reversed(s))) - int(''.join(s))
+        if n is 0:
+            return -1
+        if n in previous:
+            return i
+        p = n
+        previous.add(n)
 
 '''description
 
@@ -18,30 +36,33 @@ Converge values
 While 3-digit numbers converge to the same unique number k which is also 3 digits long, all 4-digit numbers also converge to the same unique value k1 which is 4 digits long. However, 5 digit numbers converge to any one of the following values: 53955, 59994, 61974, 62964, 63954, 71973, 74943, 75933, 82962, 83952.
 '''
 
-diff = lambda x: int(''.join(sorted(str(x), reverse=True))
-                     ) - int(''.join(sorted(str(x), reverse=False)))
+
+subtract = lambda x: int(''.join(
+    sorted(str(x), reverse=True))) - int(''.join(sorted(str(x), reverse=False)))
 
 
 def self_converge(start):
-    i = 0
-    if diff(start) == 0:
+    if subtract(start) == 0:
         return -1
-    pool = []
-    pool.append(sorted(str(start)))
-    while sorted(str(diff(start))) not in pool:
-        i += 1
-        print '{i}.{old} - {new} = {diff}'.format(i=i, old=''.join(sorted(str(start), reverse=True)), new=''.join(sorted(str(start), reverse=False)), diff=diff(start))
-        start = diff(start)
-        pool.append(sorted(str(start)))
-        if sorted(str(diff(start)))  in pool:
-            i += 1
-            print '{i}.{old} - {new} = {diff}'.format(i=i, old=''.join(sorted(str(start), reverse=True)), new=''.join(sorted(str(start), reverse=False)), diff=diff(start))
-            return i
+    counter = 1
+    sequence = []
 
 
 
-    print '_' * 40
-    return i
+    while subtract(start) not in sequence:
+        print '{i}.{old} - {new} = {diff}'.format(i=counter, old=''.join(sorted(str(start), reverse=True)), new=''.join(sorted(str(start), reverse=False)),
+                                                 diff=subtract(start))
+        start = subtract(start)
+        sequence.append(start)
+        if subtract(start) not in sequence:
+            counter += 1
+        else:
+            continue
+
+
+    return counter + 1
+
+#     print '_' * 4
 
 
 canditest = [1234, 414, 50000, 1111, 123, 4321]
