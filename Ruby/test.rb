@@ -39,7 +39,10 @@ name = "hanghang"
 puts "I love #{name} , he is my son."
 puts 'I and #{name}'  # difference. ' and "
 
-
+# array
+arr = [1,2,3,4,5,6]
+puts arr[2] # begin index with 0
+print arr[-1]
 
 
 
@@ -63,11 +66,4 @@ food = {
   "Fries"=>1.49,
   "Sandwich"=>2.49
 }
-array = ''
-food.each {|y, x|
-    if x < 2
-        puts y
-        array << "#{y} (#{x}) "
-    end
-}
-p array.strip()
+
