@@ -25,19 +25,39 @@ That's the whole language. What do you expect for something usable by orang-utan
 '''
 
 
+def okkOokOo_r(s):
+    output = ''
+    maps={'Ok, Ook, Ooo':'H', 'Okk, Ook, Ok':'e',
+    'Okk, Okk, Oo':'l', 'Okk, Okkkk':'o'
+    }
+    maps = dict(zip(maps.values(), maps.keys()))
+    for idx, char in enumerate(s):
+        if idx < len(s) - 1:
+            output += maps[char]+'? '
+        else:
+            output += maps[char]+'!'
+    return output
+
+import re
 def okkOokOo(s):
-    return "Oook?"
+    output = ''
+    maps={'Ok, Ook, Ooo':'H', 'Okk, Ook, Ok':'e',
+    'Okk, Okk, Oo':'l', 'Okk, Okkkk':'o'
+    }
+
+    tokens = re.split('(\? )|(!)', s)
+    for idx, token in enumerate(tokens):
+        if token in maps:
+            output += maps[token]
+    return output
 
 
-print ord('H') # 72
-print ord('e'), ord('l')
-# Test.assert_equals(okkOokOo('Ok, Ook, Ooo!'), 'H')
-# Test.assert_equals(okkOokOo('Okk, Ook, Ok!'), 'e')
-# Test.assert_equals(okkOokOo('Okk, Okk, Oo!'), 'l')
-# Test.assert_equals(okkOokOo('Okk, Okkkk!'), 'o')
+print okkOokOo('Ok, Ook, Ooo!') #, 'H')
+print okkOokOo('Okk, Ook, Ok!') #, 'e')
+print okkOokOo('Okk, Okk, Oo!') #, 'l')
+print okkOokOo('Okk, Okkkk!') #, 'o')
 
-# Test.assert_equals(okkOokOo(
-#     'Ok, Ook, Ooo? Okk, Ook, Ok? Okk, Okk, Oo? Okk, Okk, Oo? Okk, Okkkk!'), 'Hello')
+print okkOokOo('Ok, Ook, Ooo? Okk, Ook, Ok? Okk, Okk, Oo? Okk, Okk, Oo? Okk, Okkkk!') #, 'Hello')
 # print('Ok, Ook, Ooo? Okk, Ook, Ok? Okk, Okk, Oo? Okk, Okk, Oo? Okk, Okkkk!')
 # print(
 #     "> " + okkOokOo('Ok, Ook, Ooo? Okk, Ook, Ok? Okk, Okk, Oo? Okk, Okk, Oo? Okk, Okkkk!'))
