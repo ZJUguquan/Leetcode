@@ -1,0 +1,44 @@
+
+
+
+
+
+'''
+
+
+Input:  [[1,2],[3,4]]
+Output: [[1,2],[3,4]]
+Expected:   [[3,1],[4,2]]
+
+
+'''
+
+from math import floor, ceil
+
+class Solution:
+    # @param {integer[][]} matrix
+    # @return {void} Do not return anything, modify matrix in-place instead.
+    def rotate(self, a):
+        #a = zip(*a[::-1])
+        n = len(a)
+        f = int(floor(n/2.0))
+        c = int(ceil(n/2.0))
+
+        for x in range(f):
+            for y in range(c):
+                temp = a[n-1-y][x]
+
+                a[n-1-y][x] = a[x][y]
+                a[n-1-x][n-1-y] = a[n-1-y][x]
+                a[y][n-1-x]    = a[n-1-x][n-1-y]
+
+                a[n-1-x][y] = temp
+
+                a[n-1-y][x] = a[n-1-x][y]
+
+
+s = Solution()
+import numpy as np
+m = np.arange(1, 10).reshape(3, 3)
+print s.rotate(m)
+print m
