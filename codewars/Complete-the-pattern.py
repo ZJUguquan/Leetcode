@@ -29,7 +29,7 @@ def pattern(n):
     lst = range(1, n + 2)
     return '\n'.join([''.join(map(str, lst[i:-1] + lst[0:i])) for i in range(n)])
 
-print pattern(9)
+
 
 
 
@@ -41,4 +41,13 @@ def pattern(n):
     for i in range(n):
         output += ''.join(lst[:i] + lst[i-n::-1]).center(2*n-1)
         output += '\n'
+
+    if n > 1:
+        for i in range(n-2, -1, -1):
+            output += ''.join(lst[:i] + lst[i-n::-1]).center(2*n-1)
+            output += '\n'
     return output.strip('\n')
+
+# '  1  \n 121 \n12321\n12321\n 121 \n  1  '
+# '  1  \n 121 \n12321\n 121 \n  1  '
+print pattern(3)
