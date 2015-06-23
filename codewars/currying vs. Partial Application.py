@@ -1,8 +1,8 @@
 # coding: utf-8
 
 
-import sys
-reload(sys)
+import sy
+sreload(sys)
 from pandas import DataFrame
 sys.setdefaultencoding("utf-8")
 from pprint import pprint
