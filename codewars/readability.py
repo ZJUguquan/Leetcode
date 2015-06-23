@@ -56,3 +56,5 @@ if __name__ == '__main__':
     print sentences, words, words_cnt
 
     print (15.59-.66 -0.39*5)/ 11.8
+
+    text = ''
