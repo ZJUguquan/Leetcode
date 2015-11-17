@@ -3,7 +3,7 @@
 # @Author: Jinyong.Yang
 # @Date:   2015-11-14 23:25:26
 # @Last Modified by:   Jinyong.Yang
-# @Last Modified time: 2015-11-14 23:39:04
+# @Last Modified time: 2015-11-17 13:19:06
 
 
 def header(text):
@@ -31,8 +31,9 @@ def checkword(word):
     else:
         return word, 0
 
+
 def no_token(text):
-    return text.replace('.','').replace(',', '').replace('\'', '')
+    return text.replace('.', '').replace(',', '').replace('\'', '')
 
 
 # start with w + LOL
