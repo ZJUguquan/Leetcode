@@ -27,3 +27,4 @@ def interval_insert(intervals, interval):
 re = interval_insert([(0, 2), (3, 6), (7, 7), (9, 12)], (1, 8))
 re = interval_insert([(1,2)], (3,4))
 print(re)
+
