@@ -1,0 +1,1672 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"data_",
+				"data_to_plot"
+			],
+			[
+				"bayes",
+				"NaiveBayes.md"
+			],
+			[
+				"collect",
+				"collections	(cnt.py)"
+			],
+			[
+				"B",
+				"BeginRunning"
+			],
+			[
+				"Fi",
+				"FILTER "
+			],
+			[
+				"Distance",
+				"DistanceType	(udf.py)"
+			],
+			[
+				"gridid",
+				"griddict"
+			],
+			[
+				"output",
+				"output_beijing.txt"
+			],
+			[
+				"cotn",
+				"continue	keyword"
+			],
+			[
+				"inputf",
+				"inputFolder2"
+			],
+			[
+				"Actid",
+				"ActionId"
+			],
+			[
+				"Act",
+				"ActionId"
+			],
+			[
+				"new",
+				"new_sum_v1"
+			],
+			[
+				"compa",
+				"company_name"
+			],
+			[
+				"index",
+				"index_col	(untitled.py)"
+			],
+			[
+				"cm_",
+				"cm_日期"
+			],
+			[
+				"send",
+				"send_email"
+			],
+			[
+				"serv",
+				"server"
+			],
+			[
+				"borer-top",
+				"border-top-style"
+			],
+			[
+				"cookiemapping",
+				"cookiemapping_analysis"
+			],
+			[
+				"mapp",
+				"mapper_file"
+			],
+			[
+				"cookiem",
+				"cookiemapping_analysis"
+			],
+			[
+				"cha",
+				"chararray"
+			],
+			[
+				"adver",
+				"advertiser"
+			],
+			[
+				"proble",
+				"problem_level_second"
+			],
+			[
+				"compani",
+				"companyid"
+			],
+			[
+				"b6",
+				"b64encode〔function〕"
+			],
+			[
+				"b",
+				"b64encode〔function〕"
+			],
+			[
+				"date",
+				"datetime	(module)"
+			],
+			[
+				"Device",
+				"DevicePlaceholder2"
+			],
+			[
+				"da",
+				"day	(class)"
+			],
+			[
+				"prob",
+				"problem_time"
+			],
+			[
+				"hotblo",
+				"hot_block_dict"
+			],
+			[
+				"un",
+				"fourdigit.uniq"
+			],
+			[
+				"four",
+				"fourdigit_write.txt"
+			],
+			[
+				"html",
+				"htmlcontent"
+			],
+			[
+				"emaic",
+				"emailcontent"
+			],
+			[
+				"He",
+				"HelloWorld"
+			],
+			[
+				"email",
+				"emailcontent=`cat"
+			],
+			[
+				"ordno_dupli_ex",
+				"ordno_dupli_exception_other"
+			],
+			[
+				"money_",
+				"money_dirty_exception_order"
+			],
+			[
+				"prol",
+				"prolist_dirty_exception_order"
+			],
+			[
+				"money_du",
+				"money_null_exception_order"
+			],
+			[
+				"Comp",
+				"CompanyId"
+			],
+			[
+				"regist",
+				"register_name"
+			],
+			[
+				"top_product",
+				"top_product_pv_true"
+			],
+			[
+				"product_uv_t",
+				"product_uv_total"
+			],
+			[
+				"p_act",
+				"p_active_null"
+			],
+			[
+				"advdata",
+				"adv_data_flted"
+			],
+			[
+				"uniq_",
+				"uniq_py"
+			],
+			[
+				"p_acti",
+				"p_active_false"
+			],
+			[
+				"check",
+				"checklist_adv_targettype	(cvt_monitor.pig)"
+			],
+			[
+				"reg",
+				"register_name"
+			],
+			[
+				"cvt_",
+				"cvt_monitor	(cvt_monitor.pig)"
+			],
+			[
+				"Roo",
+				"ROOTDIR"
+			],
+			[
+				"py_uv_acti",
+				"py_uv_active_null"
+			],
+			[
+				"IdC",
+				"IdCompanyId	(cover_rate_update.pig)"
+			],
+			[
+				"jnedallkin",
+				"jned_all_kind_product"
+			],
+			[
+				"on_bid",
+				"on_bid_total_uv"
+			],
+			[
+				"ID",
+				"IdCompanyId"
+			],
+			[
+				"advertid",
+				"advertiserId"
+			],
+			[
+				"ordno_du",
+				"ordno_dupli_cnt"
+			],
+			[
+				"money_no",
+				"money_non_number_cnt"
+			],
+			[
+				"RE",
+				"REGEX_EXTRACT_ALL "
+			],
+			[
+				"ordno_not_",
+				"ordno_not_null_cnt"
+			],
+			[
+				"athel",
+				"athlete"
+			],
+			[
+				"raw_log",
+				"raw_log_grp"
+			],
+			[
+				"count_zhej",
+				"count_zhejiang_idfa_filter"
+			],
+			[
+				"ascii",
+				"ascii_lowercase	(statement)"
+			],
+			[
+				"guess",
+				"guess_cnt"
+			],
+			[
+				"j",
+				"jinyongyang"
+			],
+			[
+				"Tur",
+				"True	keyword"
+			],
+			[
+				"asci",
+				"ascii_uppercase"
+			],
+			[
+				"line",
+				"linenumber"
+			],
+			[
+				"tot",
+				"totalwords	statement"
+			],
+			[
+				"tota",
+				"total_word_freq"
+			],
+			[
+				"number",
+				"number_doc_with_term"
+			],
+			[
+				"corpus",
+				"corpus_doc_dicts"
+			],
+			[
+				"fenge",
+				"fengex	fengexp"
+			],
+			[
+				"capa",
+				"capacity"
+			],
+			[
+				"label",
+				"label_index"
+			],
+			[
+				"image",
+				"image_array"
+			],
+			[
+				"n_cl",
+				"n_colors"
+			],
+			[
+				"random",
+				"random_state"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"asc",
+				"ascii_lower_letters"
+			],
+			[
+				"hex",
+				"hex_version"
+			],
+			[
+				"Rid",
+				"RidgeCV"
+			],
+			[
+				"conver",
+				"convert_to_display"
+			],
+			[
+				"S",
+				"SpreadSheetHelper"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"load_di",
+				"load_diabetes"
+			],
+			[
+				"disy",
+				"diabets_y_train"
+			],
+			[
+				"diabetsx",
+				"diabets_x_data"
+			],
+			[
+				"Linear",
+				"LinearRegression"
+			],
+			[
+				"load",
+				"load_diabetes"
+			],
+			[
+				"diabe",
+				"diabetes"
+			],
+			[
+				"y_",
+				"y_color_mapping"
+			],
+			[
+				"irix",
+				"iris_X_train"
+			],
+			[
+				"dxt",
+				"diabetes_X_train"
+			],
+			[
+				"lin",
+				"linear_model"
+			],
+			[
+				"diax",
+				"diabetes_X_test"
+			],
+			[
+				"x_",
+				"x_indices"
+			],
+			[
+				"diab",
+				"diabetes_y_test"
+			],
+			[
+				"dia",
+				"diabetes_X_test"
+			],
+			[
+				"diayt",
+				"diabetes_y_train"
+			],
+			[
+				"iris_y",
+				"iris_y_train"
+			],
+			[
+				"iris_x",
+				"iris_X_test"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Anacoda.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Anacoda.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Canopy.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Anacoda.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Canopy.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Anacoda.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Canopy.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Ruby/Ruby.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Ruby/Ruby.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/mysql.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/mysql.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "ana",
+		"selected_items":
+		[
+			[
+				"ana",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"f ile",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"sftp",
+				"Preferences: SFTP Key Bindings"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"in sta l",
+				"Package Control: Install Package"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"extend",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"fileclose",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"vintage",
+				"Vintageous: Open .vintageousrc"
+			],
+			[
+				"filecl",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ssexten",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"sspyt",
+				"Set Syntax: Python"
+			],
+			[
+				"sspig",
+				"Set Syntax: Pig"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"ssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"filec",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"sssca",
+				"Set Syntax: Scala"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"close",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"instap",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instalp",
+				"Package Control: Install Package"
+			],
+			[
+				"ssscal",
+				"Set Syntax: Scala"
+			],
+			[
+				"pep8",
+				"AutoPEP8: Format Code"
+			],
+			[
+				"REPLsca",
+				"SublimeREPL: Scala"
+			],
+			[
+				"ssmarkde",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"py",
+				"Python Fix Imports"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"bea",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pyl",
+				"User: Python Flake8 Lint"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"spytho	",
+				"Set Syntax: Python3"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"gitad",
+				"Git: Add Current File"
+			],
+			[
+				"markpre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"python3",
+				"Python 3 Doc Search (PyDOC)"
+			],
+			[
+				"pylin",
+				"Python: Enable Pep8 Linting On View"
+			],
+			[
+				"beau",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"beat",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"markde",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"markdo",
+				"Markdown HTML Preview"
+			],
+			[
+				"sort",
+				"CSV: Sort by column (Ascending)"
+			],
+			[
+				"ssruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ssbash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sspyth",
+				"Set Syntax: Python3"
+			],
+			[
+				"auto",
+				"Auto indent"
+			],
+			[
+				"ssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"fi",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"conv",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"pyhead",
+				"Snippet: pyheader"
+			],
+			[
+				"conver",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"sssh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"filseclose",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"fil",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"file",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"pya",
+				"PyYapf: Reformat Python"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"f ile cl o se",
+				"File History: Open recently closed file (All Projects)"
+			],
+			[
+				"sqle",
+				"SQLExec: List connections"
+			],
+			[
+				"replpy",
+				"SublimeREPL: Python"
+			],
+			[
+				"be",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"s",
+				"SQLExec: Execute"
+			],
+			[
+				"desc",
+				"SQLExec: Desc Table"
+			],
+			[
+				"exec",
+				"SQLExec: Execute"
+			],
+			[
+				"lis",
+				"SQLExec: List connections"
+			],
+			[
+				"sqlexec",
+				"SQLExec: Desc Table"
+			],
+			[
+				"list",
+				"SQLExec: List connections"
+			],
+			[
+				"Sqlexec",
+				"SQLExec: List connections"
+			],
+			[
+				"sql",
+				"SQLExec: Type Query"
+			],
+			[
+				"li",
+				"SQLExec: List connections"
+			],
+			[
+				"connect",
+				"SQLExec: List connections"
+			],
+			[
+				"connection",
+				"SQLExec: List connections"
+			],
+			[
+				"sqlex",
+				"SQLExec: Execute"
+			],
+			[
+				"Pep",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"packagev",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ssjava",
+				"Set Syntax: Java"
+			],
+			[
+				"sqlb",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"beati",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"mysql",
+				"DataConverter: to MySQL"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"ssmul",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"book",
+				"Bookmarks: Toggle"
+			],
+			[
+				"ssm",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"ssmark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"sftpk",
+				"Preferences: SFTP Key Bindings"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"pig",
+				"Set Syntax: Pig"
+			],
+			[
+				"ist",
+				"Package Control: Install Package"
+			],
+			[
+				"packaup",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"ssba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sbash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packinsta",
+				"Package Control: List Packages"
+			],
+			[
+				"converutf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"alignmen",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"colorth",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"gl",
+				"Glue - Launch"
+			],
+			[
+				"sspg",
+				"Set Syntax: Pig"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"gitpus",
+				"Git: Push"
+			],
+			[
+				"gitcomm",
+				"Git: Commit"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"in sta p",
+				"Package Control: Install Package"
+			],
+			[
+				"Instap",
+				"Package Control: Install Package"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			]
+		],
+		"width": 941.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/Users/jinyongyang/mygit/Leetcode_2015/codewars/speed_control.py",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/工作log-20151117.md",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/sftp/sftp-config.json",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/foobar.py",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/sftp/join.py",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/poi_fenzhong/sftp-config.json",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/sftp/xlei.pig",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/GitlabIntegrate/messages/intro.txt",
+		"/Users/jinyongyang/mygit/knowledge_library/FOOBAR.dict",
+		"/Users/jinyongyang/mygit/knowledge_library/scala.md",
+		"/Users/jinyongyang/mygit/knowledge_library/pig/xlei.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447914559/15.json/data/users/jinyong.yang/cover_rate/cover_rate.sh",
+		"/Users/jinyongyang/mygit/knowledge_library/seaborn.md",
+		"/Users/jinyongyang/mygit/knowledge_library/our_redis/task_path.md",
+		"/Users/jinyongyang/mygit/Leetcode_2015/codewars/Noobify.py",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/SFTP/Default (OSX).sublime-keymap",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447928716/15.json/data/users/jinyong.yang/xlei.pig",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/poi/foobar.py",
+		"/Users/jinyongyang/mygit/Leetcode_2015/codewars/INT_my_parse_int(string).py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447929036/15.json/data/users/jinyong.yang/everyday/status_strategy/sqoop_data.sh",
+		"/Users/jinyongyang/geoll.result",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447918073/15.json/data/users/jinyong.yang/everyday/status_strategy/sqoop_data.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447928039/15.json/data/users/jinyong.yang/xlei.pig",
+		"/Users/jinyongyang/mygit/knowledge_library/our_redis/task_path.sh",
+		"/private/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447919527/15.json/data/users/jinyong.yang/Guangdiantong/poi_GDT_mobile3.pig",
+		"/private/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447892761/15.json/data/users/jinyong.yang/Guangdiantong/poi_GDT_mobile2.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447914474/15.json/data/users/jinyong.yang/everyday/status_strategy/sqoop_data.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447915672/15.json/data/users/jinyong.yang/xlei.pig",
+		"/Users/jinyongyang/mygit/knowledge_library/py-database/人群策略的开关状态监控.sql",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jinyongyang/mygit/knowledge_library/py-database/Strategy效果评估.sql",
+		"/Users/jinyongyang/bj_busi.result",
+		"/Users/jinyongyang/geoid_pv.stat",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447811479/15.json/data/users/jinyong.yang/Guangdiantong/poi_GDT_mobile.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447844099/15.json/data/users/jinyong.yang/gaode/poi.pig",
+		"/Users/jinyongyang/mygit/knowledge_library/py-database/项目_人群策略和非人群策略对比.sql",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/14.json",
+		"/Users/jinyongyang/appid_count.result",
+		"/Users/jinyongyang/geoid_uv.stat",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/.vintageousrc",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/poi/foobar.txt",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/pig_files/foob.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447728865/15.json/data/users/jinyong.yang/Guangdiantong/poi_GDT_pc.pig",
+		"/private/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447724886/15.json/data/users/jinyong.yang/Guangdiantong/poi_GDT_mobile.pig",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/poi/foobar2.txt",
+		"/Users/jinyongyang/mygit/Leetcode_2015/codewars/get_the_mean.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447656448/15.json/data/users/jinyong.yang/everyday/checklist_ru_dssplatform.sh",
+		"/private/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447677171/15.json/data/users/jinyong.yang/jinyong/helper2.sh",
+		"/private/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447677195/15.json/data/users/jinyong.yang/jinyong/plot2.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447674733/15.json/data/users/jinyong.yang/Guangdiantong/poi_GDT_pc.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447658759/15.json/data/users/jinyong.yang/Guangdiantong/poi_GDT_pc.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447641483/14.json/data/users/jinyong.yang/MERGE_MODEL/run_v1_Estate.sh",
+		"/Users/jinyongyang/mygit/knowledge_library/seaborn_love/SimplePlot_For_He_ge.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447593493/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/get_score_map.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447593211/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/get_score.sh",
+		"/Users/jinyongyang/mygit/knowledge_library/py-machinelearning/Adaboost(Meta Algorithm).md",
+		"/Users/jinyongyang/mygit/knowledge_library/py-machinelearning/naivebayes/NaiveBayes.md",
+		"/Users/jinyongyang/mygit/knowledge_library/py-machinelearning/naivebayes/bayes.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447572102/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/helper.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447572088/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/foobar.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447503078/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/Frush.py",
+		"/Users/jinyongyang/mygit/knowledge_library/readme.md",
+		"/Users/jinyongyang/mygit/knowledge_library/git.md",
+		"/Users/jinyongyang/bashprofile",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447483742/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/helper.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447489792/14.json/data/users/jinyong.yang/huachen/nb2boost_featuredata_v1.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447486253/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/get_Frush_pyid.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447484227/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/get_Frush_pyid.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447482762/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/helper.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447462729/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/header.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447430185/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/helper.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447431691/14.json/data/users/jinyong.yang/JINYONG_MODE_MODIFY/header.sh",
+		"/Users/jinyongyang/mygit/Leetcode_2015/codewars/does-not-work-here.py",
+		"/Users/jinyongyang/mygit/knowledge_library/py-database/指定平台_视频移动时间统计.sql",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447383484/15.json/data/users/jinyong.yang/workspace/Glance/stat.sh",
+		"/Users/jinyongyang/Desktop/foobar.pig",
+		"/Users/jinyongyang/mygit/knowledge_library/ipinyou-data-mysql-jy.md",
+		"/Users/jinyongyang/mygit/knowledge_library/py-machinelearning/naivebayes/bayes_use_spammail_detect.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447296681/14.json/data/users/jinyong.yang/durex/helper.sh",
+		"/Users/jinyongyang/mygit/knowledge_library/py-datatool/column_cnt.py",
+		"/Users/jinyongyang/mygit/knowledge_library/shell-script/query.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447298157/14.json/data/users/jinyong.yang/durex/get_score.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447329244/15.json/data/users/jinyong.yang/analysis/Finance_qiangliang/behavior/cnt.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447296505/14.json/data/users/jinyong.yang/durex/query.sh",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447325283/15.json/data/users/jinyong.yang/analysis/Finance_qiangliang/behavior/pyidTime.pig",
+		"/Users/jinyongyang/mygit/knowledge_library/py-database/Campaign效果评估.sql",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447316921/15.json/data/users/jinyong.yang/analysis/Finance_qiangliang/pyidTime.pig",
+		"/Users/jinyongyang/mygit/knowledge_library/py-database/优驰url-根据策略id.sql",
+		"/Users/jinyongyang/mygit/knowledge_library/spark.md",
+		"/Users/jinyongyang/Nutshore/coding_request.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447209981/15.json/data/users/jinyong.yang/odd_grid/odd.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447214912/14.json/data/users/jinyong.yang/NB/analyasis.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447252437/14.json/data/users/jinyong.yang/huachen/feature_343.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447246642/14.json/data/users/jinyong.yang/huachen/feature_343.py",
+		"/Users/jinyongyang/mygit/knowledge_library/mac-tools.md",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447155718/jinyong/data/users/jinyong.yang/odd_grid/anal.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447175014/14.json/data/users/jinyong.yang/huachen/huachen_offline/analy.py",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/poi/learn-request.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447149976/jinyong/data/users/jinyong.yang/odd_grid/odd.pig",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/Loginfo.iterm",
+		"/Users/jinyongyang/Downloads/spark/SimpleApp.py",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/工作日志<脑子不好>.md",
+		"/Users/jinyongyang/Library/Mobile Documents/com~apple~CloudDocs/Data_Common  资料/load_express_bid.pig",
+		"/Users/jinyongyang/Nutshore/iPinyou@work/工作log-20151102.md",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/Remote14.json",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/PigDict.sublime-snippet",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447078427/jinyong/data/users/jinyong.yang/analysis/Finance_qiangliang/strategy_layer.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447120074/jinyong/data/users/jinyong.yang/analysis/Finance_qiangliang/other_strategy.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447125275/Remote15/data/users/jinyong.yang/analysis/Finance_qiangliang/Cover_Rate.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447136652/Remote15/data/users/jinyong.yang/analysis/Finance_qiangliang/strategy_layer.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447061773/jinyong/data/users/jinyong.yang/analysis/Finance_qiangliang/Cover_Rate.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447061691/jinyong/data/users/jinyong.yang/analysis/Finance_qiangliang/1572.conv",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447061659/jinyong/data/users/jinyong.yang/analysis/Finance_qiangliang/.1572.conv.swp",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447070035/Remote15/data/users/jinyong.yang/analysis/Finance_qiangliang/strategy_layer.pig",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447052848/18.json/data/users/jinyong.yang/spark/jytest.sh",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/18.json",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1447039711/jinyong/data/users/jinyong.yang/everyday/insert_mailinfo.sh",
+		"/Users/jinyongyang/mygit/knowledge_library/untitled.scala",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/Ensime.sublime-settings",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/scala.sublime-build",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/scalac.sublime-build",
+		"/Users/jinyongyang/Library/Application Support/Sublime Text 3/Packages/User/scala_compile.sublime-build",
+		"/Users/jinyongyang/mygit/python-enhance-life/字符画.py",
+		"/Users/jinyongyang/mygit/knowledge_library/crawler.md",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1446799051/jinyong/data/users/jinyong.yang/usermodel/um_huachen/nb2boost_featuredata_v1.py",
+		"/var/folders/pn/w6d2cvr52jl1c9257kphyk100000gn/T/sublime-sftp-browse-1446798664/jinyong/data/users/jinyong.yang/usermodel/um_huachen/run.sh",
+		"/Users/jinyongyang/Library/Mobile Documents/com~apple~CloudDocs/Data_Common  资料/load_express_impclk.pig"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+			"/Users/jinyongyang/mygit"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"match",
+			"_test",
+			"20151118",
+			"COUNT",
+			"generate",
+			"foreach",
+			"odd_grid",
+			"username",
+			"switch",
+			"project",
+			"msg[\"status\"]",
+			":",
+			"click",
+			"imp",
+			"STORE pyid_imp INTO '/user/jinyong.yang/shenzhou/shandong/renqun/zhangxlei/pyids/';",
+			"imp",
+			"log",
+			"cover_rate",
+			"GeoId",
+			"ip_cnt",
+			"geoip",
+			"ip_geo_cnt",
+			"city",
+			"matplotlib",
+			"grid_data",
+			"grid_id",
+			"register",
+			"hours[",
+			"city_geo",
+			"city_geo_cnt",
+			"cnt",
+			"Feature_list",
+			"NaiveBayes",
+			"62",
+			"NaiveBayes",
+			"mySent",
+			"sys",
+			"otime",
+			"\\n",
+			"pyid1104",
+			"dongdong1572",
+			"pyid21104",
+			"tagname",
+			"run_Mysql",
+			"output",
+			"         ",
+			"        ",
+			"                ",
+			"1572",
+			"2527",
+			"advertiser",
+			"strategy_id",
+			"advertiser_id",
+			"feature4_data",
+			"feature3_data",
+			"feature3",
+			"2600",
+			"print",
+			"\\n",
+			"pickle2",
+			"pickle'",
+			"ip",
+			"i",
+			"ip",
+			"ip_counter",
+			"companyid",
+			"bid",
+			",",
+			"convs",
+			"true",
+			"pythonLines",
+			"经过filter得到的pythonLines",
+			"spatterdock",
+			"$feature_log_target",
+			"-u wenbing.yu -p 'w23$&b9*1y'",
+			"beautifulSoup为例",
+			"                             ",
+			"Non_py_4349",
+			"data'",
+			"_",
+			"weidulist",
+			"merged_data",
+			"宣武",
+			"line",
+			"readlines",
+			"business_cnt",
+			"workspace",
+			"^(\\d+)$",
+			"RUNLOG",
+			"=============================\"",
+			"glance",
+			",",
+			"bj_all",
+			"   ",
+			"  ",
+			"    ",
+			"   ",
+			"  ",
+			"gridline",
+			"str_data",
+			"t_line",
+			"line",
+			"FADMtU0szqh5",
+			"04441497693879c698b1387190ebebbb",
+			"FADMtU0szqh5",
+			"timestampe",
+			"Bundle",
+			"DOUBLE",
+			"total",
+			"domain_pv",
+			"problem_time",
+			"domain_pv",
+			"adv_name",
+			"2day_zhejiangsu",
+			"final_out",
+			"ActionPlatform",
+			"DevicePlaceholder2 AS",
+			"os",
+			"limit",
+			"'expression'",
+			"- 3",
+			"day < curdate",
+			"day = curdate()",
+			"AND cr.DAY >= ADDDATE(SYSDATE(), INTERVAL - 7 DAY)",
+			"updateActive",
+			"ADDDATE",
+			"> ADDDATE(SYSDATE(), INTERVAL - 7 DAY)",
+			"DeviceCarrierId"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"|",
+			"|\\n",
+			"\\n",
+			"^$1,",
+			"^($1),",
+			"^(\\d+),$",
+			"",
+			" day = curdate",
+			" day < curdate",
+			" day < curdate()",
+			"    ",
+			"",
+			"'2015-08-31'",
+			"",
+			"month=8",
+			"200",
+			"checklist_industry_owner",
+			"bigint",
+			"-file",
+			"-files",
+			"",
+			", 触发异常",
+			"CompanyId",
+			"imp",
+			"CompanyId",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLExec":
+	{
+		"height": 339.0
+	},
+	"output.SQLExec.errors":
+	{
+		"height": 140.0
+	},
+	"output.autopep8":
+	{
+		"height": 140.0
+	},
+	"output.exec":
+	{
+		"height": 253.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 160.0
+	},
+	"output.sbt":
+	{
+		"height": 0.0
+	},
+	"output.sbt_error":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 160.0
+	},
+	"pinned_build_system": "Packages/User/Anacoda.sublime-build",
+	"project": "codewars.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"unt",
+				"Inbox/untitled.py"
+			],
+			[
+				"unti",
+				"Inbox/untitled.py"
+			],
+			[
+				"",
+				"~/iPinyou@work/Learn_Shell/shell-cheatsheet.sh"
+			],
+			[
+				"b",
+				"nbpy/build_visitor_company_ulti_info_map.py"
+			],
+			[
+				"chall",
+				"Leetcode/python-challenge/challenge0-2.py"
+			],
+			[
+				"rie",
+				"Leetcode/codewars/riemann-sums.py"
+			],
+			[
+				"linearn",
+				"linear_model/linear_model.py"
+			],
+			[
+				"data",
+				"dataset/datasets_0.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/iPinyou@work/Conversion_Monitor/update/iPinyou.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 398.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 398.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
