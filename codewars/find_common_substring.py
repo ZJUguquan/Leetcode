@@ -6,3 +6,4 @@ def substring_test(str1, str2):
         if ch + s1[idx+1] in s2:
             return True
     return False
+
